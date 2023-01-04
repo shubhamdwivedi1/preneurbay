@@ -1,0 +1,29 @@
+.card{
+    background: #ebeef1;
+    /* opacity: 0.08; */
+    border-radius: 12px;
+    padding: 50px 89px 50px 50px;
+    margin-top: 105px;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.card:first-child{
+    margin-top: 0;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 160% */
+
+    /* Primary/Blue */
+    color: #03254C;
+
+
+}

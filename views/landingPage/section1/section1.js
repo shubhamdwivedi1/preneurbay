@@ -8,12 +8,12 @@ export default function Section1(props){
         <PaddingLayout>
 
             <div  className = {`${styles.container} d-flex align-items-start justify-content-between`}>
-                <div>
+                <div style = {{width: '464px'}}>
                     <p className = {styles.title}>PreneurBay</p>
                     <p className = {styles.live}>Live- Work -Explore</p>
                     <p className = {styles.text}>We are Building a place where people <span style = {{color: '#03254C', fontWeight: 'bold'}}>Speak Business</span>, Live- Work Explore - Connect World In An Executive Way.</p>
                 </div>
-                <div>
+                <div style = {{width: '556px'}}>
                     <div style = {{marginBottom: '35px'}}>
                         <Image src = '/../public/solopreneur.png' width = '395' height = '35' />
                     </div>

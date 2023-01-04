@@ -1,0 +1,19 @@
+.container{
+    background: #F5F4F9;
+    padding: 70px 0;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+
+    /* or 160% */
+
+    /* Secondory/Gray */
+    color: #393E45;
+    width: 731px;
+
+}

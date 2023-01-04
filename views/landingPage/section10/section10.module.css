@@ -1,0 +1,53 @@
+.container{
+    padding: 41px 80px 56px;
+    position: relative;
+}
+
+.heading{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+
+    /* identical to box height */
+
+    /* Typography/White */
+    color: #FFFFFF;
+
+
+    margin-bottom: 16px;
+
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height */
+
+    /* Typography/White */
+    color: #FFFFFF;
+}
+
+.join{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* identical to box height */
+
+    /* Primary/Blue */
+    color: #03254C;
+
+    padding: 16px 24px;
+
+        /* Primary/White */
+    background: #FFFFFF;
+    border-radius: 4px;
+}

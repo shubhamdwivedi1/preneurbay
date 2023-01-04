@@ -1,0 +1,19 @@
+.container{
+    background-color: #051C2C;
+    padding: 20px 0 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    /* identical to box height, or 157% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
