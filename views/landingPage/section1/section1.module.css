@@ -1,0 +1,59 @@
+.container{
+    margin-top: 80px;
+}
+
+
+.title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+
+    /* identical to box height, or 107% */
+
+    /* Primary/Blue */
+    color: #03254C;
+    margin-bottom: 12.5px;
+    margin-top: 0;
+}
+
+.live{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+
+    /* identical to box height, or 158% */
+
+    /* Primary/Blue */
+    color: #03254C;
+    margin-bottom: 28px;
+
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+
+    /* or 161% */
+
+    color: #393E45;
+}
+
+.rightText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+
+    /* or 140% */
+
+    /* Secondory/Gray */
+    color: #393E45;
+}

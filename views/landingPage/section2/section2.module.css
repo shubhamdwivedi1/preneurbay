@@ -1,0 +1,41 @@
+.container{
+    margin-top: 57px;
+    /* background-color: #051c2c; */
+}
+
+.innerContainer{
+    background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.4) 1.57%, rgba(196, 196, 196, 0.05) 100%);
+    opacity: 0.5;
+    backdrop-filter: blur(30px);
+
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 27px;
+    padding: 10px 35px;
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+    /* or 180% */
+    text-align: center;
+
+    /* Primary/White */
+    color: #FFFFFF;
+    /* opacity: 1 !important; */
+}
+
+.line{
+    margin: auto;
+    margin-top: 36px;
+    padding-bottom: 52px;
+    position: relative;
+    width: fit-content;
+}

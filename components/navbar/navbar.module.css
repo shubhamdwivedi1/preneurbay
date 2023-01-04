@@ -1,0 +1,28 @@
+.container{
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.label{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+
+    color: #000000;
+
+    opacity: 0.5;
+    margin-left: 40px;
+    margin-top: 38px;
+    margin-bottom: 25px;
+}
+
+.label:first-child{
+    margin-left: 0px;
+}
+
+.active{
+    opacity: 1;
+}

@@ -15,12 +15,76 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.p{margin: 0;}
+
+
+
+
+.d-flex{
+  display: flex !important;
+}
+
+.align-items-center{
+  align-items: center !important;
+}
+
+.align-items-start{
+  align-items: flex-start !important;
+}
+
+.align-items-end{
+  align-items: flex-end !important;
+}
+
+.align-items-stretch{
+  align-items: stretch !important;
+}
+
+
+.justify-content-center{
+  justify-content: center !important;
+}
+
+.justify-content-start{
+  justify-content: flex-start !important;
+}
+
+.justify-content-end{
+  justify-content: flex-end !important;
+}
+
+.justify-content-between{
+  justify-content: space-between !important;
+}
+
+.justify-content-around{
+  justify-content: space-around !important;
+}
+
+.justify-content-evenly{
+  justify-content: space-evenly !important;
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf');
 }
