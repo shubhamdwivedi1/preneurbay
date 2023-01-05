@@ -40,6 +40,8 @@
     font-size: 24px;
     line-height: 29px;
 
+    margin-left: 15px;
+
     /* identical to box height, or 121% */
 
     /* Primary/White */
@@ -47,4 +49,14 @@
 
     margin-top: 65.5px;
     margin-bottom: 10px;
+}
+
+.yellowBorder{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 8px;
+    background: linear-gradient(180deg, #D1AB49 0%, #D19C15 100%);
+    border-radius: 10px;
 }

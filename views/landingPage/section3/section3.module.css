@@ -81,7 +81,16 @@
 
 .leftBox{
     padding: 30px;
-    border-bottom: 1px solid #DFDFDF;
+    border-bottom: 2px solid #DFDFDF;
+}
+
+.yellowBorder{
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background-color: #d1ab49;
 }
 
 
@@ -206,4 +215,18 @@
 .firstLeftBox{
     background: linear-gradient(180deg, rgba(209, 171, 73, 0.1) 0%, rgba(209, 156, 21, 0.1) 100%);
     border-radius: 12px 12px 0px 0px;
+}
+
+.plus{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+
 }

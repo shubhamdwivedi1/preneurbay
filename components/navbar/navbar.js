@@ -11,11 +11,11 @@ export default function Navbar(props){
                     <Image src = "/../public/logo.png" width = '223' height = '45' />
                 </div>
                 <div className='d-flex'>
-                    <p className = {`${styles.label} ${styles.active}`}>Home</p>
-                    <p className = {`${styles.label}`}>About</p>
-                    <p className = {`${styles.label}`}>Mission</p>
-                    <p className = {`${styles.label}`}>Vision</p>
-                    <p className = {`${styles.label}`}>Contact</p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label} ${styles.active}`}>Home</p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>About</p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Mission</p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Vision</p>
+                    <p onClick={()=>{props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
                 </div>
             </div>
         </PaddingLayout>

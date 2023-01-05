@@ -88,3 +88,15 @@ p{margin: 0;}
   font-family: 'Rubik';
   src: url('../fonts/Rubik/Rubik-VariableFont_wght.ttf');
 }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+  font-weight: 600;
+}
