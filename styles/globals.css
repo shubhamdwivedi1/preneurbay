@@ -100,3 +100,10 @@ p{margin: 0;}
   src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
   font-weight: 600;
 }
+
+
+@media (max-width: 480px) {
+  :root {
+    font-size: 8px;
+  }
+}
