@@ -48,8 +48,8 @@ export default function Section6(props){
                         </div>
                     </Fade>
                     <Fade duration = {2000} right>
-                        <div>
-                            <Image src = '/../public/landing_sec6_img.png' width = '400' height = '570'/>
+                        <div className = {styles.imgCont}>
+                            <Image src = '/../public/landing_sec6_img.png' layout='fill'/>
                         </div>
                     </Fade>
                 </div>

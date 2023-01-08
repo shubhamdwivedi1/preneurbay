@@ -60,3 +60,22 @@
     background: linear-gradient(180deg, #D1AB49 0%, #D19C15 100%);
     border-radius: 10px;
 }
+
+.titleImage{
+    width: 380px;
+    height: 100px;
+    position: relative;
+}
+
+
+@media (max-width: 480px) {
+    .titleImage{
+        width: 253.33333333333334px;
+        height: 66.66666666666667px;
+    }
+    .rightTitle{
+        font-size: 2.5rem;
+        line-height: 42px;
+        margin-top: 20px;
+    }
+}

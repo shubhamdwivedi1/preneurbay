@@ -7,13 +7,13 @@ export default function Section4(props){
     return(
         <Fade duration = {2000} bottom>
             <div className = {`${styles.container} d-flex align-items-center justify-content-center`}>
-                <div className = {`d-flex align-items-center `}>
-                    <div style = {{marginRight: '52px'}}>
-                        <Image src = '/../public/landing_sec4_comma.png' width = '174' height = '174' />
+                <div style = {{flexWrap: 'nowrap'}} className = {`d-flex align-items-center `}>
+                    <div className = {styles.commaImage} style = {{marginRight: '52px'}}>
+                        <Image src = '/../public/landing_sec4_comma.png' layout='fill' />
                     </div>
                     <div>
-                        <div style = {{marginBottom: '24px'}}>
-                            <Image src = '/../public/landing_sec4_title.png' width = '731' height = '50' />
+                        <div className = {styles.titleImage} style = {{marginBottom: '24px'}}>
+                            <Image src = '/../public/landing_sec4_title.png' layout='fill' />
                         </div>
                         <p className = {styles.text}>Our Goal is to help early-stage business enthusiasts & professionals to ease business & leisure  making it a packed bleisure trip  through our bays to help them achieve the value of Live,Work,Explore at a single place.</p>
                     </div>

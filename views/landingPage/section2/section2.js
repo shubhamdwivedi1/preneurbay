@@ -15,8 +15,8 @@ export default function Section2(props){
                     <PaddingLayout>
                         <div className = {`${styles.container} d-flex align-items-center justify-content-center`}>
                             <div>
-                                <div style = {{position: 'relative'}}>
-                                    <Image src = '/../public/building.png' width = '1200' height = '480' />
+                                <div className = {styles.buildingCon} style = {{position: 'relative'}}>
+                                    <Image src = '/../public/building.png' layout='fill' />
                                 </div>
                                 <div className = {styles.innerContainer}>
                                     <p className = {styles.text}>We provide affordable living and co-workspace culture with a networking essence that makes an aspiring preneur ‘s mindset individual explore the world in a budget-friendly and lavish way boosting business economic tourism between growing Indian and international cities</p>

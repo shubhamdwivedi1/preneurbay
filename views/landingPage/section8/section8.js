@@ -10,8 +10,8 @@ export default function Section8(props){
             <Fade duration = {2000} bottom>
                 <div className = {styles.container}>
                     <div className = {styles.card}>
-                        <div style = {{marginTop: '-80px'}}>
-                            <Image src = '/../public/landing_sec8_img1.png' width = '280' height = '280' />
+                        <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
+                            <Image src = '/../public/landing_sec8_img1.png' layout='fill' />
                         </div>
                         <div style = {{marginLeft: '50px'}}>
                             <div style = {{marginBottom: '24px'}}>
@@ -21,8 +21,8 @@ export default function Section8(props){
                         </div>
                     </div>
                     <div className = {styles.card}>
-                        <div style = {{marginTop: '-80px'}}>
-                            <Image src = '/../public/landing_sec8_img2.png' width = '280' height = '280' />
+                        <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
+                            <Image src = '/../public/landing_sec8_img2.png' layout='fill' />
                         </div>
                         <div style = {{marginLeft: '50px'}}>
                             <div style = {{marginBottom: '24px'}}>

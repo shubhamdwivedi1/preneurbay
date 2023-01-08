@@ -5,3 +5,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.mapCon{
+    width: 1100px;
+    height: 582px;
+    position: relative;
+}
+@media (max-width: 480px) {
+    .mapCon{
+        height: 252px;
+    }
+}

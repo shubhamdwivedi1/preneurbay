@@ -10,7 +10,7 @@ export default function Section9(props){
             <Fade duration = {2000} bottom>
                 <div className = {styles.container}>
                     <div className = {styles.innerContainer}>
-                        <div style = {{width: '376px'}}>
+                        <div className = {styles.ttop} style = {{width: '376px'}}>
                             <div style = {{margin: 'auto', marginBottom: '28px', width: 'fit-content'}}>
                                 <Image src = '/../public/landing_sec9_img1.png' width = '100' height = '100' />
                             </div>

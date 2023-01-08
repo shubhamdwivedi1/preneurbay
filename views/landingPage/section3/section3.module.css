@@ -6,6 +6,7 @@
     margin: auto;
     margin-top: 30px;
     width: 441px;
+    flex-wrap: nowrap;
 }
 
 .tabContainer{
@@ -229,4 +230,22 @@
     margin: auto;
     position: relative;
 
+}
+
+@media (max-width: 480px) {
+    .tabsContainer{
+        width: fit-content;
+    }
+    .tabContainer{
+        width: fit-content;
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    /* .guestContainer > div{
+        margin-left: 0px;
+        margin-top: 30px;
+    } */
 }

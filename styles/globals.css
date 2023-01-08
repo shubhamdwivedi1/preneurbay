@@ -102,8 +102,34 @@ p{margin: 0;}
 }
 
 
+.show_in_mobile{
+  display: none;
+}
+
+.hide_in_mobile{
+  display: block;
+}
+
+
 @media (max-width: 480px) {
   :root {
-    font-size: 8px;
+    font-size: 10px;
+  }
+  .show_in_mobile{
+    display: block;
+  }
+  .hide_in_mobile{
+    display: none;
+  }
+  .d-flex{
+    flex-wrap: wrap;
+  }
+  .d-flex > *{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+
+
+
