@@ -13,7 +13,7 @@ export default function Section8(props){
                         <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
                             <Image src = '/landing_sec8_img1.png' layout='fill' />
                         </div>
-                        <div style = {{marginLeft: '50px'}}>
+                        <div className = {styles.cardRight}>
                             <div style = {{marginBottom: '24px'}}>
                                 <Image src = '/landing_sec8_title1.png' width = '251' height = '35' />
                             </div>
@@ -24,7 +24,7 @@ export default function Section8(props){
                         <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
                             <Image src = '/landing_sec8_img2.png' layout='fill' />
                         </div>
-                        <div style = {{marginLeft: '50px'}}>
+                        <div className = {styles.cardRight}>
                             <div style = {{marginBottom: '24px'}}>
                                 <Image src = '/landing_sec8_title2.png' width = '217' height = '35' />
                             </div>
