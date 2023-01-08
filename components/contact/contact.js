@@ -7,11 +7,11 @@ export default function Contact(props){
         <div className = {styles.container}>
             <div className = {styles.box}>
                 <div onClick={()=>{props.setContact(false)}} style = {{position: 'absolute', top: '20px', right: '20px', cursor: 'pointer'}}>
-                    <Image src = '/../public/contact_cross.png' width = '40' height = '40'/>
+                    <Image src = '/contact_cross.png' width = '40' height = '40'/>
                 </div>
 
                 <div style = {{width: 'fit-content', margin: 'auto'}}>
-                    <Image src = '/../public/contact_sub.png' width = '104' height = '14' />
+                    <Image src = '/contact_sub.png' width = '104' height = '14' />
                 </div>
                 <p className = {styles.title}>Contact us</p>
 

@@ -19,7 +19,7 @@ export default function Section1(props){
                 <Fade duration = {2000} right>
                     <div className = {styles.pre2}>
                         <div className={styles.areyou} style = {{marginBottom: '35px'}}>
-                            <Image src = '/../public/solopreneur.png' layout='fill' />
+                            <Image src = '/solopreneur.png' layout='fill' />
                         </div>
                         <p className = {styles.rightText}>Willing to cross boundaries across world by creating impact through your ideas  !!<br/><br/>You landed at the right space.👍</p>
                     </div>
