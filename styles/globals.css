@@ -5,6 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -130,7 +131,26 @@ p{margin: 0;}
     margin-left: auto;
     margin-right: auto;
   }
+
+  .d-flex > img{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p{
+    line-height: normal !important;
+  }
 }
 
 
 
+
+
+mark{
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #6ea5b0, #d41ec3);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

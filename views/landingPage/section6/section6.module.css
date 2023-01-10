@@ -60,6 +60,14 @@
     padding: 0;
 }
 
+.title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.875rem;
+    line-height: 54px;
+}
+
 .imgCont{
     width: 400px; 
     height: 570px;

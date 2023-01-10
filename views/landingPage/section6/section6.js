@@ -7,15 +7,13 @@ import Fade from 'react-reveal/Fade'
 export default function Section6(props){
     return(
         <PaddingLayout>
-            <div className = {styles.container}>
+            <div id = "about" className = {styles.container}>
                 <Fade duration = {2000} bottom>
-                    <div style = {{margin: 'auto', width: 'fit-content'}}>
-                        <Image src = '/landing_sec6_title.png' width = '362' height = '38' />
-                    </div>
+                    <p className = {styles.title} style = {{margin: 'auto', width: 'fit-content'}}><mark>How do we work?</mark></p>
                 </Fade>
 
                 <Fade duration = {2000} left>
-                    <p style = {{marginTop: '71px'}} className = {styles.yellowBox}>PreneurBay’s Terminal</p>
+                    <p style = {{marginTop: '71px'}} className = {styles.yellowBox}>PreneurBay's Terminal</p>
                 </Fade>
 
                 
@@ -27,7 +25,7 @@ export default function Section6(props){
                     </Fade>
                     <Fade duration = {2000} right>
                         <div style = {{width: '666px'}}>
-                            <p className = {styles.text}>PreneurBay’s Terminal is a concept of connecting two individual cities together using our platform individuals from Bay’s Terminal can get to know more about each other leading to economic,educational and cultural growth between international cities.</p>
+                            <p className = {styles.text}>PreneurBay's Terminal is a concept of connecting two individual cities together using our platform individuals from Bay’s Terminal can get to know more about each other leading to economic,educational and cultural growth between international cities.</p>
                         </div>
                     </Fade>
                 </div>

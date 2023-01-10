@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import StandardLayout from '../../layouts/standardLayout/standardLayout'
 import styles from './landingPage.module.css'
 import Section1 from './section1/section1'
@@ -14,8 +15,12 @@ import Section9 from './section9/section9'
 
 
 export default function LandingPage(props){
+
+    const [connect, setConnect] = useState(false)
+    const [invest, setInvest] = useState(false)
+
     return(
-        <StandardLayout>
+        <StandardLayout setConnect = {setConnect} connect = {connect} setInvest = {setInvest} invest = {invest}>
 
             <div>
                 <Section1/>
@@ -50,7 +55,7 @@ export default function LandingPage(props){
             </div>
 
             <div>
-                <Section9/>
+                <Section9 setConnect = {setConnect} setInvest = {setInvest}/>
             </div>
 
             <div>

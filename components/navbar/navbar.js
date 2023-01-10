@@ -20,10 +20,10 @@ export default function Navbar(props){
                     </div>
                 </div>
                 <div className={`d-flex ${styles.menu}`}>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label} ${styles.active}`}>Home</p>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>About</p>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Mission</p>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Vision</p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission</a></p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p>
                     <p onClick={()=>{props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
                 </div>
 
@@ -33,10 +33,10 @@ export default function Navbar(props){
                 <div onClick={()=>{setMenu(false)}} style = {{position: 'absolute', top: '5px', left: '5px', cursor: 'pointer'}}>
                     <Image src = '/cross.png' width = '24' height = '24' />
                 </div>
-                <p style = {{cursor: 'pointer', marginLeft: '40px'}} className = {`${styles.label} ${styles.active}`}>Home</p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>About</p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Mission</p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Vision</p>
+                <p style = {{cursor: 'pointer', marginLeft: '40px'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
+                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
+                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission</a></p>
+                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p>
                 <p onClick={()=>{setMenu(false);props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
             </div>
 

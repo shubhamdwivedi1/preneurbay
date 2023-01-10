@@ -15,9 +15,7 @@ export default function Section5(props){
                 <div style = {{position: 'relative'}} className='d-flex align-items-start justify-content-between'>
                     <div>
                         <Fade duration = {2000} left>
-                            <div className={styles.titleImage}>
-                                <Image src = '/landing_sec5_title.png' layout='fill' />
-                            </div>
+                            <p className = {styles.title}><mark>Why Do You Need PreneurBay ?</mark></p>
                         </Fade>
                     </div>
                     <Fade duration = {2000} right>

@@ -3,12 +3,27 @@ import Image from 'next/image'
 import PaddingLayout from '../../../layouts/paddingLayout/paddingLayout'
 import styles from './section1.module.css'
 import Fade from 'react-reveal/Fade'
+import { useEffect, useState } from 'react'
 
 export default function Section1(props){
+
+    const [tag, setTag] = useState(0)
+
+    useEffect(() => {
+      setInterval(()=>{
+        setTag(prev => (prev+1)%3)
+      }, 2000)
+    }, [])
+
+    useEffect(()=>{
+        document.getElementById("solotags").scroll(0, 64*tag)
+    }, [tag])
+    
+
     return(
         <PaddingLayout>
 
-            <div  className = {`${styles.container} d-flex align-items-start justify-content-between`}>
+            <div id = "home" className = {`${styles.container} d-flex align-items-start justify-content-between`}>
                 <Fade duration = {2000} left>
                     <div className = {styles.pre1}>
                         <p className = {styles.title}>PreneurBay</p>
@@ -18,8 +33,14 @@ export default function Section1(props){
                 </Fade>
                 <Fade duration = {2000} right>
                     <div className = {styles.pre2}>
-                        <div className={styles.areyou} style = {{marginBottom: '35px'}}>
-                            <Image src = '/solopreneur.png' layout='fill' />
+                        <div style = {{flexWrap: 'nowrap'}} className='d-flex align-items-center justify-content-start'>
+                            <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>Are you a&nbsp;</p>
+                            <div style = {{width : 'auto', marginLeft: '0', marginRight: '0', overflow: 'hidden', height: '64px', scrollBehavior: 'smooth'}} id = "solotags">
+                                <p className = {styles.solo}><mark>Solopreneur</mark></p>
+                                <p className = {styles.solo}><mark>Enterpreneur</mark></p>
+                                <p className = {styles.solo}><mark>Investor</mark></p>
+                            </div>
+                            <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
                         </div>
                         <p className = {styles.rightText}>Willing to cross boundaries across world by creating impact through your ideas  !!<br/><br/>You landed at the right space.👍</p>
                     </div>
