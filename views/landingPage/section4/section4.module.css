@@ -52,6 +52,10 @@
         position: relative;
     }
     
+    .title{
+        padding: 0 10px;
+    }
+
     .commaImage{
         display: none;
         width: 43.5px;
