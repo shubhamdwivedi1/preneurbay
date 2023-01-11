@@ -26,8 +26,8 @@ export default function Section5(props){
                     <Fade duration = {2000} right>
                         <div id = "myslides" style = {{width: '666px'}}>
                             <Swiper id = "swiper-container" className='swiper-container' style = {{height: '600px'}} 
-                                observer= {true}  
-                                observeParents= {true}
+                                // observer= {true}  
+                                // observeParents= {true}
                                 
                                 speed= {1200}
                                 direction= 'vertical'
