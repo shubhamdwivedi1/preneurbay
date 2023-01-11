@@ -16,7 +16,7 @@ export default function Navbar(props){
                         <Image src = '/menu_icon.png' width = '20' height = '20' />
                     </div>
                     <div className = {styles.logoConMM}>
-                        <Image src = "/logo.png" layout='fill' />
+                        <Image src = "/logo.svg" layout='fill' />
                     </div>
                 </div>
                 <div className={`d-flex ${styles.menu}`}>

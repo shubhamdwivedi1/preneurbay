@@ -13,6 +13,8 @@
 }
 @media (max-width: 480px) {
     .mapCon{
-        height: 252px;
+        margin-top: -160px;
+        width: 90vw;
+        height: 43vw;
     }
 }

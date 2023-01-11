@@ -41,19 +41,13 @@
 }
 
 .buildingCon{
-    width:1200px;
-    height:480px;
+    width:84vw;
+    height:33.6vw;
     position: relative;
-
+    margin: auto;
 }
 
 @media (max-width: 480px) {
-    .buildingCon{
-        width: auto;
-        height: 160px;
-        margin: auto;
-
-    }
 
     .innerContainer{
         width: fit-content;

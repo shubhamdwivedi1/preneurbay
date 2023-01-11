@@ -75,6 +75,15 @@
 }
 
 @media (max-width: 480px) {
+    .imgCont{
+        width: 63vw; 
+        height: 90vw;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
     .points{
         line-height: 24px;
         padding: 0 10px;

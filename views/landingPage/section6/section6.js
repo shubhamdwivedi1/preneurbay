@@ -31,6 +31,11 @@ export default function Section6(props){
                 </div>
 
                 <div style = {{marginTop: '50px'}} className = 'd-flex align-items-start justify-content-between'>
+                    <Fade duration = {2000} right>
+                        <div className = {`${styles.imgCont} show_in_mobile`}>
+                            <Image src = '/landing_sec6_img.svg' layout='fill'/>
+                        </div>
+                    </Fade>
                     <Fade duration = {2000} left>
                         <div style = {{width: '728px'}}>
                             <ul className = {styles.points}>
@@ -46,8 +51,8 @@ export default function Section6(props){
                         </div>
                     </Fade>
                     <Fade duration = {2000} right>
-                        <div className = {styles.imgCont}>
-                            <Image src = '/landing_sec6_img.png' layout='fill'/>
+                        <div className = {`${styles.imgCont} hide_in_mobile`}>
+                            <Image src = '/landing_sec6_img.svg' layout='fill'/>
                         </div>
                     </Fade>
                 </div>
