@@ -84,7 +84,16 @@
 }
 
 
+.sswiper{
+    height: 660px;
+}
+
+
 @media (max-width: 480px) {
+    .sswiper{
+        margin-top: 20px;
+        height: 250px;
+    }
     .titleImage{
         width: 253.33333333333334px;
         height: 66.66666666666667px;
