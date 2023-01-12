@@ -48,14 +48,22 @@
 
 
 @media (max-width: 480px) {
+    .cardRight{
+        margin-left: 0px !important;
+    }
+    .title{
+        margin-top: 20px;
+    }
     .card{
-        padding: 10px;
+        padding: 20px 10px;
     }
     .imgCon{
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
         position: absolute;
-        margin-top: -30px !important;
+        /* top: 1; */
+        margin-top: -50px !important;
+        left: 40%;
     }
     .cardRight{
         margin-left: 50px;

@@ -22,6 +22,9 @@ export default function Connect(props){
                 <p className = {styles.label}>Mobile Number</p>
                 <input className = {styles.input} placeholder = "+91 000 000 0000" />
 
+
+                <p className = {styles.label}>Occupation</p>
+                <input className = {styles.input} />
                 {/* <p className = {styles.label}>Location</p> */}
                 {/* <textarea style = {{resize: 'none'}} className = {styles.input} placeholder = "Street, City, Country" ></textarea> */}
 

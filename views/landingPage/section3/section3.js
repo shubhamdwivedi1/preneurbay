@@ -33,10 +33,19 @@ export default function Section3(props){
                 <div style = {{marginTop: '30px'}} className = {`d-flex align-items-start justify-content-between`}>
                     <Fade duration = {2000} left>
                         <div className = {styles.leftContainer}>
-                            <div onClick={()=>{setSec(1)}} className = {`${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
+                            <div onClick={()=>{setSec(1)}} className = {`show_in_mobile ${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Live</p>
                                 <p className = {styles.leftSubText}>A stay where you feel energetic & motivated</p>
-                                <p style = {{height: sec == 1 ? 'auto' : '20px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p style = {{height: sec == 1 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                {sec == 1 &&
+                                    <div className = {styles.yellowBorder}></div>
+                                }
+                            </div>
+
+                            <div onMouseEnter={()=>{setSec(1)}} onClick={()=>{setSec(1)}} className = {`hide_in_mobile ${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
+                                <p className = {styles.leftTitle}>Live</p>
+                                <p className = {styles.leftSubText}>A stay where you feel energetic & motivated</p>
+                                <p style = {{height: sec == 1 ? '44px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
                                 {sec == 1 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -45,12 +54,12 @@ export default function Section3(props){
                             <div className = {`${styles.hotelsCon} ${styles.mobHotelsCon} show_in_mobile`}>
                                 {sec == 1 &&
                                     <div className = {`${styles.rightContainer} d-flex`}>
-                                        <div className = {styles.card}>
+                                        {/* <div className = {styles.card}>
                                             <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                             <p className = {styles.coming}>Coming Soon</p>
                                             <p className = {styles.cardInfo}>Aligarh</p>
                                             <p className = {styles.book}>Book Now</p> 
-                                        </div>
+                                        </div> */}
 
                                         <div className = {styles.card}>
                                             <Image src = '/landing_sec3_hotel2.png' layout = 'fill' />
@@ -62,10 +71,19 @@ export default function Section3(props){
                                 }
                             </div>
 
-                            <div onClick={()=>{setSec(2)}} className = {`${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
+                            <div onClick={()=>{setSec(2)}} className = {` show_in_mobile ${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Work</p>
                                 <p className = {styles.leftSubText}>An Office Where Great Minds Meet</p>
-                                <p style = {{height: sec == 2 ? 'auto' : '20px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p style = {{height: sec == 2 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                {sec == 2 &&
+                                    <div className = {styles.yellowBorder}></div>
+                                }
+                            </div>
+
+                            <div onMouseEnter={()=>{setSec(2)}} onClick={()=>{setSec(2)}} className = {` hide_in_mobile ${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
+                                <p className = {styles.leftTitle}>Work</p>
+                                <p className = {styles.leftSubText}>An Office Where Great Minds Meet</p>
+                                <p style = {{height: sec == 2 ? '44px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
                                 {sec == 2 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -84,10 +102,19 @@ export default function Section3(props){
                                 }
                             </div>
 
-                            <div onClick={()=>{setSec(3)}} className = {`${styles.leftBox} ${sec == 3 ? styles.firstLeftBox : null}`}>
+                            <div onClick={()=>{setSec(3)}} className = {` show_in_mobile ${styles.leftBox} ${sec == 3 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Explore</p>
                                 <p className = {styles.leftSubText}>Preneur's network- a community to engage  leaders</p>
-                                <p style = {{height: sec == 3 ? 'auto' : '20px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p style = {{height: sec == 3 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                {sec == 3 &&
+                                    <div className = {styles.yellowBorder}></div>
+                                }
+                            </div>
+
+                            <div onMouseEnter={()=>{setSec(3)}} onClick={()=>{setSec(3)}} className = {` hide_in_mobile ${styles.leftBox} ${sec == 3 ? styles.firstLeftBox : null}`}>
+                                <p className = {styles.leftTitle}>Explore</p>
+                                <p className = {styles.leftSubText}>Preneur's network- a community to engage  leaders</p>
+                                <p style = {{height: sec == 3 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
                                 {sec == 3 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -108,77 +135,77 @@ export default function Section3(props){
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>Boston</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
                                                     <Image src = '/im2.png' width = '220' height = '150' />
                                                 </div>
-                                                <p className = {styles.name}>Mr. John</p>
+                                                <p className = {styles.name}>Mr. Phillips</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
+                                                    <p className = {styles.labe}>Co Founder of Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>New York</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
                                                     <Image src = '/im3.png' width = '220' height = '150' />
                                                 </div>
-                                                <p className = {styles.name}>Mr. John</p>
+                                                <p className = {styles.name}>Miss Sizel</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
+                                                    <p className = {styles.labe}>Developer at Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>Boston</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
                                                     <Image src = '/im4.png' width = '220' height = '150' />
                                                 </div>
-                                                <p className = {styles.name}>Mr. John</p>
+                                                <p className = {styles.name}>Misses James</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
+                                                    <p className = {styles.labe}>HR at Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>New York</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
                                                     <Image src = '/im5.png' width = '220' height = '150' />
                                                 </div>
-                                                <p className = {styles.name}>Mr. John</p>
+                                                <p className = {styles.name}>Mr. Micheal</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
+                                                    <p className = {styles.labe}>Developer at Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>Chicago</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
                                                     <Image src = '/im7.png' width = '220' height = '150' />
                                                 </div>
-                                                <p className = {styles.name}>Mr. John</p>
+                                                <p className = {styles.name}>Mr. David</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
+                                                    <p className = {styles.labe}>Consultant at Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                     <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston, OH</p>
+                                                    <p className = {styles.labe}>Austin</p>
                                                 </div>
                                             </div>
                                             
@@ -192,12 +219,12 @@ export default function Section3(props){
                         <div className = {`${styles.hotelsCon} hide_in_mobile`}>
                             {sec == 1 &&
                                 <div className = {`${styles.rightContainer} d-flex`}>
-                                    <div className = {styles.card}>
+                                    {/* <div className = {styles.card}>
                                         <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                         <p className = {styles.coming}>Coming Soon</p>
                                         <p className = {styles.cardInfo}>Aligarh</p>
                                         <p className = {styles.book}>Book Now</p> 
-                                    </div>
+                                    </div> */}
 
                                     <div className = {styles.card}>
                                         <Image src = '/landing_sec3_hotel2.png' layout = 'fill' />
@@ -231,119 +258,122 @@ export default function Section3(props){
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>Boston</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
                                                 <Image src = '/im2.png' width = '220' height = '150' />
                                             </div>
-                                            <p className = {styles.name}>Mr. John</p>
+                                            <p className = {styles.name}>Mr. Phillips</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Founder of Borgfy</p>
+                                                <p className = {styles.labe}>Co Founder of Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>New York</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
                                                 <Image src = '/im3.png' width = '220' height = '150' />
                                             </div>
-                                            <p className = {styles.name}>Mr. John</p>
+                                            <p className = {styles.name}>Miss Sizel</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Founder of Borgfy</p>
+                                                <p className = {styles.labe}>Developer at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>Boston</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
                                                 <Image src = '/im4.png' width = '220' height = '150' />
                                             </div>
-                                            <p className = {styles.name}>Mr. John</p>
+                                            <p className = {styles.name}>Misses James</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Founder of Borgfy</p>
+                                                <p className = {styles.labe}>HR at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>New York</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
                                                 <Image src = '/im5.png' width = '220' height = '150' />
                                             </div>
-                                            <p className = {styles.name}>Mr. John</p>
+                                            <p className = {styles.name}>Mr. Micheal</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Founder of Borgfy</p>
+                                                <p className = {styles.labe}>Developer at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>Chicago</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
                                                 <Image src = '/im7.png' width = '220' height = '150' />
                                             </div>
-                                            <p className = {styles.name}>Mr. John</p>
+                                            <p className = {styles.name}>Mr. David</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Founder of Borgfy</p>
+                                                <p className = {styles.labe}>Consultant at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
                                                 <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                <p className = {styles.labe}>Boston, OH</p>
+                                                <p className = {styles.labe}>Austin</p>
                                             </div>
                                         </div>
                                         
                                     </div>
                                 </div>
                             }
-                            <div style = {{width: 'fit-content'}}>
-                                <p className = {styles.guestText}>Guest checkin</p>
-                                <div className = {`d-flex align-items-center`}>
-                                    <div className = {`${styles.guestContainer} d-flex`}>
-                                        <div style = {{width: 'fit-content'}}>
-                                            <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                <Image src = '/guest1.png' layout = 'fill' />
-                                            </div>
-                                            <p className = {styles.guestLabel} style = {{background: 'linear-gradient(180deg, #D1AB49 0%, #D19C15 100%)'}}>Traveler</p>
-                                        </div>
 
-                                        <div style = {{width: 'fit-content'}}>
-                                            <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                <Image src = '/guest2.png' layout = 'fill' />
-                                            </div>
-                                            <p className = {styles.guestLabel} style = {{background: '#03254C'}}>Entrepreneur</p>
-                                        </div>
-
-                                        <div style = {{width: 'fit-content'}}>
-                                            <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                <Image src = '/guest3.png' layout = 'fill' />
-                                            </div>
-                                            <p className = {styles.guestLabel} style = {{background: '#376BF9'}}>Investor</p>
-                                        </div>
-
-                                        <div style = {{width: 'fit-content'}}>
-                                            <div className='d-flex align-items-center justify-content-center' style = {{width: '66px',  height: '66px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto', background: 'black'}}>
-                                                <div style = {{opacity: '0.4'}}>
+                            {sec != 3 &&
+                                <div style = {{width: 'fit-content'}}>
+                                    <p className = {styles.guestText}>{sec == 1 ? 'Guest checkin' : 'Co Workers checkin'}</p>
+                                    <div className = {`d-flex align-items-center`}>
+                                        <div className = {`${styles.guestContainer} d-flex`}>
+                                            <div style = {{width: 'fit-content'}}>
+                                                <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
                                                     <Image src = '/guest1.png' layout = 'fill' />
                                                 </div>
-                                                <p className = {styles.plus}>+4</p>
+                                                <p className = {styles.guestLabel} style = {{background: 'linear-gradient(180deg, #D1AB49 0%, #D19C15 100%)'}}>Traveler</p>
+                                            </div>
+
+                                            <div style = {{width: 'fit-content'}}>
+                                                <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
+                                                    <Image src = '/guest2.png' layout = 'fill' />
+                                                </div>
+                                                <p className = {styles.guestLabel} style = {{background: '#03254C'}}>Entrepreneur</p>
+                                            </div>
+
+                                            <div style = {{width: 'fit-content'}}>
+                                                <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
+                                                    <Image src = '/guest3.png' layout = 'fill' />
+                                                </div>
+                                                <p className = {styles.guestLabel} style = {{background: '#376BF9'}}>Investor</p>
+                                            </div>
+
+                                            <div style = {{width: 'fit-content'}}>
+                                                <div className='d-flex align-items-center justify-content-center' style = {{width: '66px',  height: '66px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto', background: 'black'}}>
+                                                    <div style = {{opacity: '0.4'}}>
+                                                        <Image src = '/guest1.png' layout = 'fill' />
+                                                    </div>
+                                                    <p className = {styles.plus}>+4</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            }
                         </div>
                     </Fade>
                 </div>

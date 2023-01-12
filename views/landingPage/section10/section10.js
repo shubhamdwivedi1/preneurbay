@@ -14,7 +14,7 @@ export default function Section10(props){
                     <div style = {{position: 'relative'}} className = 'd-flex align-items-center justify-content-between'>
                         <div>
                             <p className = {styles.heading}>Join our Facebook community</p>
-                            <p className = {styles.text}>Lorem ipsum dolor it</p>
+                            <p className = {styles.text}>Connect With Our Community of Preneur's</p>
                         </div>
                         <div>
                             <p className = {styles.join}>Join Now</p>
@@ -22,6 +22,9 @@ export default function Section10(props){
                     </div>
                 </div>
             </Fade>
+
+
+            
         </PaddingLayout>
     )
 }
