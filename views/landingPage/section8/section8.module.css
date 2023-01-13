@@ -58,14 +58,18 @@
         padding: 20px 10px;
     }
     .imgCon{
-        width: 70px;
-        height: 70px;
+        width: 90px;
+        height: 90px;
         position: absolute;
         /* top: 1; */
-        margin-top: -50px !important;
-        left: 40%;
+        margin-top: -80px !important;
+        left: calc(50% - 45px);
     }
     .cardRight{
         margin-left: 50px;
+    }
+
+    .text{
+        margin-top: -10px;
     }
 }

@@ -37,8 +37,60 @@ let scrollEvent = (event)=>{
     }
 }
 
+let anscroll = 0
+let tab = 1
+
+let stickyScroll = (event)=>{
+    if(event.deltaY > 0){
+        anscroll += event.deltaY
+        
+        if(tab != 3){
+            let x = window.scrollX
+            let y = window.scrollY
+            if(anscroll < 450)
+                window.scrollTo(x, y)
+            if(anscroll > 450){
+
+                if(tab == 1){
+                    document.getElementById("whypre").style.marginTop='348px'
+                    window.scrollTo(x, y+348)
+                }
+                else if(tab == 2){
+                    document.getElementById("whypre").style.marginTop='564px'
+                    window.scrollTo(x, y+216)
+                }
+                tab++;
+                anscroll = 0
+            }
+        }
+        
+    }
+    else{
+        anscroll += event.deltaY
+        if(tab != 1){
+            let x = window.scrollX
+            let y = window.scrollY
+            if(anscroll > -450)
+                window.scrollTo(x, y)
+            if(anscroll < -450){
+
+                if(tab == 3){
+                    document.getElementById("whypre").style.marginTop='348px'
+                    window.scrollTo(x, y-216)
+                }
+                else if(tab == 2){
+                    document.getElementById("whypre").style.marginTop='0px'
+                    window.scrollTo(x, y-348)
+                }
+                tab--;
+                anscroll = 0
+            }
+        }   
+    }
+}
+
 export const addEvent = ()=>{
-    window.addEventListener("wheel", scrollEvent)
+    window.addEventListener("wheel", stickyScroll)
 
     console.log("added")
 }
@@ -46,6 +98,6 @@ export const addEvent = ()=>{
 
 
 export const removeEvent = ()=>{
-    window.removeEventListener("wheel", scrollEvent)
+    window.removeEventListener("wheel", stickyScroll)
     console.log("removed")
 }

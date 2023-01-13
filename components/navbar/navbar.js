@@ -22,8 +22,8 @@ export default function Navbar(props){
                 <div className={`d-flex ${styles.menu}`}>
                     <p style = {{cursor: 'pointer'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
                     <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission</a></p>
-                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p>
+                    <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission & Vision</a></p>
+                    {/* <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p> */}
                     <p onClick={()=>{props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
                 </div>
 
@@ -35,8 +35,8 @@ export default function Navbar(props){
                 </div>
                 <p style = {{cursor: 'pointer', marginLeft: '40px'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
                 <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission</a></p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p>
+                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission & Vision</a></p>
+                {/* <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p> */}
                 <p onClick={()=>{setMenu(false);props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
             </div>
 

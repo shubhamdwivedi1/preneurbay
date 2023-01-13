@@ -318,6 +318,10 @@
         width: fit-content;
         margin: auto;
     }
+
+    .leftTitle{
+        margin-bottom: 10px;
+    }
     /* .guestContainer > div{
         margin-left: 0px;
         margin-top: 30px;

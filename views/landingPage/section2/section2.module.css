@@ -4,17 +4,17 @@
 }
 
 .innerContainer{
-    background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.2) 1.57%, rgba(196, 196, 196, 0.025) 100%);
+    /* background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.2) 1.57%, rgba(196, 196, 196, 0.025) 100%); */
     /* opacity: 0.5; */
-    backdrop-filter: blur(30px);
+    /* backdrop-filter: blur(30px); */
 
     /* Note: backdrop-filter has minimal browser support */
-    border-radius: 27px;
+    /* border-radius: 27px;
     padding: 10px 35px;
-    width: 810px;
+    width: 810px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .text{
@@ -48,6 +48,13 @@
 }
 
 @media (max-width: 480px) {
+
+    .buildingCon{
+        width: 100vw;
+        height: 40vw;
+        margin-left: -20px;
+        border-radius: 0;
+    }
 
     .innerContainer{
         width: fit-content;

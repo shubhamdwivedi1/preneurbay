@@ -11,7 +11,7 @@ export default function Section1(props){
 
     useEffect(() => {
       setInterval(()=>{
-        setTag(prev => (prev+1)%3)
+        setTag(prev => (prev+1)%5)
       }, 2000)
     }, [])
 
@@ -40,6 +40,7 @@ export default function Section1(props){
                                 <p className = {styles.solo}><mark>Enterpreneur</mark></p>
                                 <p className = {styles.solo}><mark>Investor</mark></p>
                                 <p className = {styles.solo}><mark>Professional</mark></p>
+                                <p className = {styles.solo}><mark>Digital Nomad</mark></p>
                             </div>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
                         </div>
