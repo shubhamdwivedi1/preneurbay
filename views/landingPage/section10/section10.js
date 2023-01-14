@@ -13,11 +13,17 @@ export default function Section10(props){
 
                     <div style = {{position: 'relative'}} className = 'd-flex align-items-center justify-content-between'>
                         <div>
-                            <p className = {styles.heading}>Join our Facebook community</p>
+                            <div className = 'd-flex align-items-center justify-content-center'>
+                                <p style = {{marginRight: '10px'}} className = {styles.heading}>Join our</p>
+                                <div style = {{marginBottom: '9px'}}>
+                                    <Image src = '/facebook_icon.png' width = '30' height = '30' />
+                                </div>
+                                <p style = {{marginLeft: '10px'}} className = {styles.heading}>community</p>
+                            </div>
                             <p className = {styles.text}>Connect With Our Community of Preneur's</p>
                         </div>
                         <div>
-                            <p className = {styles.join}>Join Now</p>
+                            <a href = 'https://www.facebook.com/groups/685969796192496'><p className = {styles.join}>Join Now</p></a>
                         </div>
                     </div>
                 </div>

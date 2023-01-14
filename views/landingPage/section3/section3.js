@@ -45,7 +45,7 @@ export default function Section3(props){
                             <div onMouseEnter={()=>{setSec(1)}} onClick={()=>{setSec(1)}} style = {{width: '550px'}} className = {`hide_in_mobile ${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Live</p>
                                 <p className = {styles.leftSubText}>A stay where you feel energetic & motivated</p>
-                                <p style = {{height: sec == 1 ? '44px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p style = {{height: sec == 1 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
                                 {sec == 1 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -83,7 +83,7 @@ export default function Section3(props){
                             <div onMouseEnter={()=>{setSec(2)}} onClick={()=>{setSec(2)}} style = {{width: '550px'}} className = {` hide_in_mobile ${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Work</p>
                                 <p className = {styles.leftSubText}>An Office Where Great Minds Meet</p>
-                                <p style = {{height: sec == 2 ? '44px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p style = {{height: sec == 2 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
                                 {sec == 2 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
