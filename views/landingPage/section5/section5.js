@@ -27,7 +27,7 @@ export default function Section5(props){
                         <div id = "myslides" style = {{width: '666px'}}>
                             <div>
                                 <p className = {styles.rightTitle}>“Business+ leisure = <span style = {{color: '#D1AB49'}}>Bleisure</span> Win business to enjoy leisure at your travel”</p>
-                                <p className = {styles.rightText}>Our Goal is to help early-stage business enthusiasts & professionals to ease business & leisure  making it a packed bleisure trip  through our bays to help them achieve the value of Live,Work,Explore at a single place.</p>
+                                <p className = {styles.rightText}>"Combine business and leisure for a winning bleisure experience" <br/> Our objective is to assist early-stage business enthusiasts and professionals in seamlessly blending business and leisure, creating a unique "bleisure" experience through our destinations. Our goal is to provide a one-stop destination for individuals to Live, Work and Explore.</p>
                             </div>
                         
                             <div>
@@ -35,7 +35,7 @@ export default function Section5(props){
                                     <p className = {styles.subHeading}>Bizz or Liesure</p>
                                     <div className = {styles.yellowBorder}></div>
                                 </div>
-                                <p className = {styles.rightText}>Choosing Business trips over leisure trips Business Growth is Our Priority, We Believe Leisure comes in a trip once you had a good business deal in hand so you can enjoy the real essence of the b-leisure trip Always remember! Leisure time is enjoyed In a stress-free environment. </p>
+                                <p className = {styles.rightText}>At PreneurBay, we prioritize business growth and understand that leisure comes as a result of successful business deals. Our goal is to create a stress-free environment for our clients to truly enjoy the b-leisure experience.</p>
                             </div>
                             <div>
                                 <div style = {{position: 'relative'}}>

@@ -15,7 +15,7 @@ export default function Section8(props){
                         </div>
                         <div className = {styles.cardRight}>
                             <p className = {styles.title} style = {{marginBottom: '24px'}}><mark>Our Mission</mark></p>
-                            <p className = {styles.text}>We had an entrepreneurship mindset leveraging Business tourism in tier ,2,3 cities of India, by sharing cultural and economic bonding between the two international cities hubs for parallel growth.</p>
+                            <p className = {styles.text}>We strive to promote entrepreneurship and business tourism in tier 2 and 3 cities of India by fostering cultural and economic connections between international cities, promoting parallel growth.</p>
                         </div>
                     </div>
                     <div id = "vision" className = {styles.card}>
@@ -24,7 +24,7 @@ export default function Section8(props){
                         </div>
                         <div className = {styles.cardRight}>
                             <p className = {styles.title} style = {{marginBottom: '24px'}}><mark>Our Vision</mark></p>
-                            <p className = {styles.text}>Our Vision is to bring an India a producer economy in the next decade through the Connected Ecosystem of Innovative companies making products within, RnD Unit Attached With Local Universities Boosting Tremendous Economic Growth</p>
+                            <p className = {styles.text}>Our vision is to transform India into a leading producer economy within the next decade through a connected ecosystem of innovative companies, research and development units connected with local universities, and driving significant economic growth.</p>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ export default function Section6(props){
                         </Fade>
                         <Fade duration = {2000} right>
                             <div style = {{width: '666px'}}>
-                                <p className = {styles.text}>PreneurBay's Terminal is a concept of connecting two individual cities together using our platform individuals from Bay’s Terminal can get to know more about each other leading to economic,educational and cultural growth between international cities.</p>
+                                <p className = {styles.text}>PreneurBay's concept connects two individual cities through our platform, allowing individuals to learn more about each other and promoting economic, educational and cultural growth between international cities.<br/>PreneurBay's Terminal is an innovative concept that connects two different cities through our platform, allowing individuals to learn more about each other and promoting economic, educational and cultural growth between international cities. Our platform provides a unique opportunity for individuals to explore and connect with different cultures and communities, fostering mutually beneficial relationships between the two cities</p>
                             </div>
                         </Fade>
                     </div>
@@ -42,16 +42,17 @@ export default function Section6(props){
                             <div style={{width: '100%'}} className = 'd-flex align-items-start justify-content-between'>
                                     <Fade duration = {2000} left>
                                         <div className = {styles.point} style = {{width: '728px'}}>
-                                            <ul className = {styles.points}>
-                                                <li>Our USP Is Connecting International Entrepreneurs and Professional Travelers with Local Entrepreneurs Community</li>
-                                                <li>Co-working space allows you to engage and build opportunities with co-workers and the international community</li>
-                                                <li>We are trying to build strong network of RnD to lead innovation creating bridge between corporates leaders and educational institutes</li>
-                                                <li>Our Modern Living Room Allows you to stay in peace on business travel</li>
-                                                <li>Our App Allows a more in-depth networking effect to explore more about our members and helps you connect with more people internationally</li>
-                                                <li>Gig on travel: it allows you to do gigs jobs posted by our members bringing your travel cost down</li>
-                                                <li>Attend Local and In House Events</li>
-                                                <li>Last but not least we know it costs you much in the early stage of business so we make our bay affordable to you as much as we can so we can leave good memories in your early preneurs life.</li>
-                                            </ul>
+                                        <ul className = {styles.points}>
+                                            <li>Our Unique Selling Point is Connecting International Entrepreneurs and Professional Travelers with Local Entrepreneur Communities.</li>
+                                            <li>Our Co-working Spaces provide opportunities for engagement and building connections with co-workers and the international community.</li>
+                                            <li>We strive to establish a robust Network of Research and Development to drive innovation and foster collaboration between corporate leaders and educational institutions.</li>
+                                            <li>Our Modern Living Spaces offer a peaceful environment for business travel, allowing you to stay focused and refreshed.</li>
+                                            <li>Our App provides in-depth networking opportunities to explore more about our members and connect with people internationally.</li>
+                                            <li>The "Gig on Travel" feature allows you to take on jobs posted by members, reducing your travel costs.</li>
+                                            <li>Attend Local and In-House Events to expand your network and knowledge.</li>
+                                            <li>We understand the challenges of starting a business, that's why we make our services as affordable as possible to leave positive memories during your early entrepreneurial journey.</li>
+                                            <li>We understand the financial challenges that come with starting a business, which is why we strive to make our services as affordable as possible for early stage entrepreneurs. Our goal is to provide a positive and memorable experience during this important phase of your entrepreneurial journey.</li>
+                                        </ul>
                                         </div>
                                     </Fade>
                                     <Fade duration = {2000} right>

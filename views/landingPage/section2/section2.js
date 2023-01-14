@@ -20,7 +20,7 @@ export default function Section2(props){
                                 </div>
                                 <p style = {{fontSize: '12', color: 'black', textAlign: 'center', fontStyle: 'italic'}}>Image is just for illustration</p>
                                 <div className = {styles.innerContainer}>
-                                    <p className = {styles.text}>We provide affordable living and co-workspace culture with a networking essence that makes an aspiring preneur ‘s mindset individual explore the world in a budget-friendly and lavish way boosting business economic tourism between growing Indian and international cities</p>
+                                    <p className = {styles.text}>We offer cost-effective housing and coworking spaces with a networking focus that allows aspiring entrepreneurs to explore the world in a lavish yet budget-friendly manner, promoting business and economic tourism between developing Indian and international cities</p>
                                 </div>
                             </div>
                         </Fade>

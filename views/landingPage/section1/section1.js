@@ -28,7 +28,7 @@ export default function Section1(props){
                     <div className = {styles.pre1}>
                         <p className = {styles.title}>PreneurBay</p>
                         <p className = {styles.live}>Live- Work -Explore</p>
-                        <p className = {styles.text}>We are Building a place where people <span style = {{color: '#03254C', fontWeight: 'bold'}}>Speak Business</span>, Live- Work Explore - Connect World In An Executive Way.</p>
+                        <p className = {styles.text}>We are creating a community where individuals can engage in business discourse, balance work and life, discover new opportunities, and connect with a global network in a professional manner. </p>
                     </div>
                 </Fade>
                 <Fade duration = {2000} right>

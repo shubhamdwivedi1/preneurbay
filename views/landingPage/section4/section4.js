@@ -13,7 +13,7 @@ export default function Section4(props){
                     </div>
                     <div>
                         <p className = {styles.title} style = {{marginBottom: '24px'}}><mark>Build Great things @ PreneurBay</mark></p>
-                        <p className = {styles.text}>Our Goal is to help early-stage business enthusiasts & professionals to ease business & leisure  making it a packed bleisure trip  through our bays to help them achieve the value of Live,Work,Explore at a single place.</p>
+                        <p className = {styles.text}>Our mission is to assist early-stage business enthusiasts and professionals in seamlessly combining business and leisure, creating a unique "bleisure" experience through our destinations. Our goal is to provide a one-stop destination for individuals to Live, Work and Explore.</p>
                     </div>
                 </div>
             </div>

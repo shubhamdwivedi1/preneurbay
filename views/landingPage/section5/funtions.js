@@ -55,12 +55,12 @@ let stickyScroll = (event)=>{
             if(anscroll > 450){
 
                 if(tab == 1){
-                    document.getElementById("whypre").style.marginTop='348px'
-                    window.scrollTo(x, y+363)
+                    document.getElementById("whypre").style.marginTop='410px'
+                    window.scrollTo(x, y+430)
                 }
                 else if(tab == 2){
-                    document.getElementById("whypre").style.marginTop='564px'
-                    window.scrollTo(x, y+231)
+                    document.getElementById("whypre").style.marginTop='590px'
+                    window.scrollTo(x, y+200)
                 }
                 tab++;
                 anscroll = 0
@@ -82,12 +82,12 @@ let stickyScroll = (event)=>{
             if(anscroll < -450){
 
                 if(tab == 3){
-                    document.getElementById("whypre").style.marginTop='348px'
-                    window.scrollTo(x, y-231)
+                    document.getElementById("whypre").style.marginTop='410px'
+                    window.scrollTo(x, y-200)
                 }
                 else if(tab == 2){
                     document.getElementById("whypre").style.marginTop='0px'
-                    window.scrollTo(x, y-363)
+                    window.scrollTo(x, y-430)
                 }
                 tab--;
                 anscroll = 0

@@ -4,6 +4,7 @@ import styles from './section3.module.css'
 import Image from 'next/image'
 import Fade from 'react-reveal/Fade'
 import { useState } from 'react'
+import { Swiper, SwiperSlide} from 'swiper/react'
 
 export default function Section3(props){
 
@@ -35,8 +36,8 @@ export default function Section3(props){
                         <div className = {styles.leftContainer}>
                             <div onClick={()=>{setSec(1)}} className = {`show_in_mobile ${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Live</p>
-                                <p className = {styles.leftSubText}>A stay where you feel energetic & motivated</p>
-                                <p style = {{height: sec == 1 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>Experience a rejuvenating and inspirational stay</p>
+                                <p style = {{height: sec == 1 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We have designed luxurious accommodations to help entrepreneurs realize their true value as leaders in the future economy. We strive to provide the best executive-class living experiences.</p>
                                 {sec == 1 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -44,8 +45,8 @@ export default function Section3(props){
 
                             <div onMouseEnter={()=>{setSec(1)}} onClick={()=>{setSec(1)}} style = {{width: '550px'}} className = {`hide_in_mobile ${styles.leftBox} ${sec == 1 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Live</p>
-                                <p className = {styles.leftSubText}>A stay where you feel energetic & motivated</p>
-                                <p style = {{height: sec == 1 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>Experience a rejuvenating and inspirational stay</p>
+                                <p style = {{height: sec == 1 ? '66px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We have designed luxurious accommodations to help entrepreneurs realize their true value as leaders in the future economy. We strive to provide the best executive-class living experiences.</p>
                                 {sec == 1 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -73,8 +74,8 @@ export default function Section3(props){
 
                             <div onClick={()=>{setSec(2)}} className = {` show_in_mobile ${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Work</p>
-                                <p className = {styles.leftSubText}>An Office Where Great Minds Meet</p>
-                                <p style = {{height: sec == 2 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>A Meeting Place for Exceptional Minds</p>
+                                <p style = {{height: sec == 2 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We have crafted luxurious and comfortable workspaces for entrepreneurs to gather, collaborate, and achieve great things.</p>
                                 {sec == 2 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -82,8 +83,8 @@ export default function Section3(props){
 
                             <div onMouseEnter={()=>{setSec(2)}} onClick={()=>{setSec(2)}} style = {{width: '550px'}} className = {` hide_in_mobile ${styles.leftBox} ${sec == 2 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Work</p>
-                                <p className = {styles.leftSubText}>An Office Where Great Minds Meet</p>
-                                <p style = {{height: sec == 2 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>A Meeting Place for Exceptional Minds</p>
+                                <p style = {{height: sec == 2 ? '44px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We have crafted luxurious and comfortable workspaces for entrepreneurs to gather, collaborate, and achieve great things.</p>
                                 {sec == 2 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -104,8 +105,8 @@ export default function Section3(props){
 
                             <div onClick={()=>{setSec(3)}} className = {` show_in_mobile ${styles.leftBox} ${sec == 3 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Explore</p>
-                                <p className = {styles.leftSubText}>Preneur's network- a community to engage  leaders</p>
-                                <p style = {{height: sec == 3 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>Discover the World in Style</p>
+                                <p style = {{height: sec == 3 ? 'auto' : '14px', overflow: 'hidden'}} className = {styles.leftText}>We have curated luxurious and budget-friendly travel experiences for entrepreneurs to explore new horizons, expand their perspectives and connect with a global network in a professional manner.</p>
                                 {sec == 3 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -113,8 +114,8 @@ export default function Section3(props){
 
                             <div onMouseEnter={()=>{setSec(3)}} onClick={()=>{setSec(3)}} style = {{width: '550px'}} className = {` hide_in_mobile ${styles.leftBox} ${sec == 3 ? styles.firstLeftBox : null}`}>
                                 <p className = {styles.leftTitle}>Explore</p>
-                                <p className = {styles.leftSubText}>Preneur's network- a community to engage  leaders</p>
-                                <p style = {{height: sec == 3 ? '88px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We had build luxurious pleasant stay for our preneur's to help them feel there true worth of being an executive and advocate of future economy so we always tries to give you best experiences ever of an executive class of living</p>
+                                <p className = {styles.leftSubText}>Discover the World in Style</p>
+                                <p style = {{height: sec == 3 ? '66px' : '20px', overflow: 'hidden', transition: 'all 0.3s linear'}} className = {styles.leftText}>We have curated luxurious and budget-friendly travel experiences for entrepreneurs to explore new horizons, expand their perspectives and connect with a global network in a professional manner.</p>
                                 {sec == 3 &&
                                     <div className = {styles.yellowBorder}></div>
                                 }
@@ -152,63 +153,73 @@ export default function Section3(props){
                                                     <p className = {styles.labe}>New York</p>
                                                 </div>
                                             </div>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im3.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Miss Sizel</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Developer at Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston</p>
-                                                </div>
-                                            </div>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im4.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Misses James</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>HR at Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>New York</p>
-                                                </div>
-                                            </div>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im5.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Mr. Micheal</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Developer at Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Chicago</p>
-                                                </div>
-                                            </div>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im7.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Mr. David</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Consultant at Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Austin</p>
-                                                </div>
-                                            </div>
+                                            <Swiper style = {{width: '220px'}} direction = 'horizontal' spaceBetween={10}>
+                                                <SwiperSlide>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im3.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Miss Sizel</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Developer at Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Boston</p>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im4.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Misses James</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>HR at Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>New York</p>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im5.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Mr. Micheal</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Developer at Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Chicago</p>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                <SwiperSlide>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im7.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Mr. David</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Consultant at Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Austin</p>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
                                             
+                                            </Swiper>
                                         </div>
                                     </div>
                                 }
