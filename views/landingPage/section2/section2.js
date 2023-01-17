@@ -16,7 +16,7 @@ export default function Section2(props){
                         <Fade duration = {2000}>
                             <div>
                                 <div className = {`${styles.buildingCon} `} style = {{position: 'relative'}}>
-                                    <Image src = '/building.svg' layout='fill' />
+                                    <Image src = '/building.png' layout='fill' />
                                 </div>
                                 <p style = {{fontSize: '12', color: 'black', textAlign: 'center', fontStyle: 'italic'}}>Image is just for illustration</p>
                                 <div className = {styles.innerContainer}>

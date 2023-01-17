@@ -103,7 +103,7 @@ export default function Section7(props){
                             }
                         </div>
                         <div className = {styles.mapCon} style = {{position: 'relative'}}>
-                            <Image src = '/landing_sec7_maps.svg' layout = 'fill'/>
+                            <Image src = '/landing_sec7_maps.png' layout = 'fill'/>
                         </div>
                     </div>
                 </Fade>
@@ -111,7 +111,7 @@ export default function Section7(props){
 
             <div className = {`${styles.mobContainer}`}>
                 <div className = {styles.mapCon} style = {{position: 'relative'}}>
-                    <Image src = '/landing_sec7_maps.svg' layout = 'fill'/>
+                    <Image src = '/landing_sec7_maps.png' layout = 'fill'/>
                 </div>
             </div>
         </React.Fragment>
