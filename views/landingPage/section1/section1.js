@@ -17,6 +17,7 @@ export default function Section1(props){
 
     useEffect(()=>{
         document.getElementById("solotags").scroll(0, 64*tag)
+        document.getElementById("solotagsmob").scroll(0, 64*tag)
     }, [tag])
     
 
@@ -28,12 +29,23 @@ export default function Section1(props){
                     <div className = {styles.pre1}>
                         <p className = {styles.title}>PreneurBay</p>
                         <p className = {styles.live}>Live- Work -Explore</p>
+                        <div style = {{flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.mob}`}>
+                            <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>Are you a&nbsp;</p>
+                            <div style = {{width : 'auto', marginLeft: '0', marginRight: '0', overflow: 'hidden', height: '64px', scrollBehavior: 'smooth'}} id = "solotagsmob">
+                                <p className = {styles.solo}><mark>Solopreneur</mark></p>
+                                <p className = {styles.solo}><mark>Enterpreneur</mark></p>
+                                <p className = {styles.solo}><mark>Investor</mark></p>
+                                <p className = {styles.solo}><mark>Professional</mark></p>
+                                <p className = {styles.solo}><mark>Digital Nomad</mark></p>
+                            </div>
+                            <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
+                        </div>
                         <p className = {styles.text}>We are creating a community where individuals can engage in business discourse, balance work and life, discover new opportunities, and connect with a global network in a professional manner. </p>
                     </div>
                 </Fade>
                 <Fade duration = {2000} right>
                     <div className = {styles.pre2}>
-                        <div style = {{flexWrap: 'nowrap'}} className='d-flex align-items-center justify-content-start'>
+                        <div style = {{flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.pc}`}>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>Are you a&nbsp;</p>
                             <div style = {{width : 'auto', marginLeft: '0', marginRight: '0', overflow: 'hidden', height: '64px', scrollBehavior: 'smooth'}} id = "solotags">
                                 <p className = {styles.solo}><mark>Solopreneur</mark></p>

@@ -82,9 +82,21 @@
     margin-bottom: 30px;
 }
 
+.mob{
+    display: none !important;
+}
+
+.pc{
+    display: flex;
+}
 
 
 @media (max-width: 480px) {
+
+    .mob{
+        display: flex !important;
+    }
+
     .pre1{
         width: 100%;
         margin-bottom: 20px;
@@ -109,5 +121,8 @@
 
     .rightText{
         margin-top: -20px;
+    }
+    .pc{
+        display: none !important;
     }
 }
