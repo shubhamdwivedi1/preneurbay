@@ -11,7 +11,7 @@ export default function Section8(props){
                 <div className = {styles.container}>
                     <div id = "mission" className = {styles.card}>
                         <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
-                            <Image src = '/landing_sec8_img1.svg' layout='fill' />
+                            <Image priority src = '/landing_sec8_img1.svg' layout='fill' />
                         </div>
                         <div className = {styles.cardRight}>
                             <p className = {styles.title} style = {{marginBottom: '24px'}}><mark>Our Mission</mark></p>
@@ -20,7 +20,7 @@ export default function Section8(props){
                     </div>
                     <div id = "vision" className = {styles.card}>
                         <div className = {styles.imgCon} style = {{marginTop: '-80px'}}>
-                            <Image src = '/landing_sec8_img2.svg' layout='fill' />
+                            <Image priority src = '/landing_sec8_img2.svg' layout='fill' />
                         </div>
                         <div className = {styles.cardRight}>
                             <p className = {styles.title} style = {{marginBottom: '24px'}}><mark>Our Vision</mark></p>

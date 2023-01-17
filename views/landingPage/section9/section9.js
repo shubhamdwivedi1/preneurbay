@@ -17,9 +17,9 @@ export default function Section9(props){
                         <div className = {styles.ttop}>
                             <div style = {{margin: 'auto', marginBottom: '38px', width: 'fit-content'}}>
                             {active == 2 ? 
-                                <Image src = '/landing_sec9_img1.svg' width = '100' height = '100' />
+                                <Image priority src = '/landing_sec9_img1.svg' width = '100' height = '100' />
                                 :
-                                <Image src = '/landing_sec9_img1_in.svg' width = '100' height = '100' />
+                                <Image priority src = '/landing_sec9_img1_in.svg' width = '100' height = '100' />
                             }
                             </div>
                             <p className = {`${active == 1 ? styles.rightText : styles.leftText}`}>Interested In Joining the Waitlist of Co Space Working and living?</p>
@@ -33,9 +33,9 @@ export default function Section9(props){
                     <div onClick={()=>{setActive(2)}} onMouseEnter={()=>{setActive(2)}} className = {`${active == 2 ? styles.rightContainer : styles.innerContainer}`}>
                         <div style = {{margin: 'auto', marginBottom: '38px', width: 'fit-content'}}>
                             {active == 2 ? 
-                                <Image src = '/landing_sec9_img2.svg' width = '128' height = '128'/>
+                                <Image priority src = '/landing_sec9_img2.svg' width = '128' height = '128'/>
                                 :
-                                <Image src = '/landing_sec9_img2_in.svg' width = '128' height = '128'/>
+                                <Image priority src = '/landing_sec9_img2_in.svg' width = '128' height = '128'/>
                             }
                         </div>
                         <p className = {`${active == 2 ? styles.rightText : styles.leftText}`}>We are Actively Looking for an Investor</p>

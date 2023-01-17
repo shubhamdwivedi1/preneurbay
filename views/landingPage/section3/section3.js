@@ -56,14 +56,14 @@ export default function Section3(props){
                                 {sec == 1 &&
                                     <div className = {`${styles.rightContainer} d-flex`}>
                                         {/* <div className = {styles.card}>
-                                            <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
+                                            <Image priority src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                             <p className = {styles.coming}>Coming Soon</p>
                                             <p className = {styles.cardInfo}>Aligarh</p>
                                             <p className = {styles.book}>Book Now</p> 
                                         </div> */}
 
                                         <div className = {styles.card}>
-                                            <Image src = '/landing_sec3_hotel2.png' layout = 'fill' />
+                                            <Image priority src = '/landing_sec3_hotel2.png' layout = 'fill' />
                                             <p className = {styles.coming}>Coming Soon</p>
                                             <p className = {styles.cardInfo}>Aligarh</p>
                                             <p className = {styles.book}>Book Now</p> 
@@ -94,7 +94,7 @@ export default function Section3(props){
                                 {sec == 2 &&
                                     <div className = {`${styles.rightContainer} d-flex`}>
                                         <div className = {styles.card}>
-                                            <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
+                                            <Image priority src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                             <p className = {styles.coming}>Coming Soon</p>
                                             <p className = {styles.cardInfo}>Aligarh</p>
                                             <p className = {styles.book}>Book Now</p> 
@@ -127,29 +127,29 @@ export default function Section3(props){
                                         <div style = {{flexWrap: 'wrap'}} className = {`d-flex align-items-center justify-content-center ${styles.single}`}>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im1.png' width = '220' height = '150' />
+                                                    <Image priority src = '/im1.png' width = '220' height = '150' />
                                                 </div>
                                                 <p className = {styles.name}>Mr. John</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                    <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                     <p className = {styles.labe}>Founder of Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                    <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                     <p className = {styles.labe}>Boston</p>
                                                 </div>
                                             </div>
                                             <div className = {styles.single}>
                                                 <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im2.png' width = '220' height = '150' />
+                                                    <Image priority src = '/im2.png' width = '220' height = '150' />
                                                 </div>
                                                 <p className = {styles.name}>Mr. Phillips</p>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                    <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                     <p className = {styles.labe}>Co Founder of Borgfy</p>
                                                 </div>
                                                 <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                    <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                     <p className = {styles.labe}>New York</p>
                                                 </div>
                                             </div>
@@ -157,15 +157,15 @@ export default function Section3(props){
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
-                                                            <Image src = '/im3.png' width = '220' height = '150' />
+                                                            <Image priority src = '/im3.png' width = '220' height = '150' />
                                                         </div>
                                                         <p className = {styles.name}>Miss Sizel</p>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Developer at Borgfy</p>
                                                         </div>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Boston</p>
                                                         </div>
                                                     </div>
@@ -173,15 +173,15 @@ export default function Section3(props){
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
-                                                            <Image src = '/im4.png' width = '220' height = '150' />
+                                                            <Image priority src = '/im4.png' width = '220' height = '150' />
                                                         </div>
                                                         <p className = {styles.name}>Misses James</p>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>HR at Borgfy</p>
                                                         </div>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>New York</p>
                                                         </div>
                                                     </div>
@@ -189,15 +189,15 @@ export default function Section3(props){
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
-                                                            <Image src = '/im5.png' width = '220' height = '150' />
+                                                            <Image priority src = '/im5.png' width = '220' height = '150' />
                                                         </div>
                                                         <p className = {styles.name}>Mr. Micheal</p>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Developer at Borgfy</p>
                                                         </div>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Chicago</p>
                                                         </div>
                                                     </div>
@@ -205,15 +205,15 @@ export default function Section3(props){
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
-                                                            <Image src = '/im7.png' width = '220' height = '150' />
+                                                            <Image priority src = '/im7.png' width = '220' height = '150' />
                                                         </div>
                                                         <p className = {styles.name}>Mr. David</p>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Consultant at Borgfy</p>
                                                         </div>
                                                         <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                             <p className = {styles.labe}>Austin</p>
                                                         </div>
                                                     </div>
@@ -231,14 +231,14 @@ export default function Section3(props){
                             {sec == 1 &&
                                 <div className = {`${styles.rightContainer} d-flex`}>
                                     {/* <div className = {styles.card}>
-                                        <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
+                                        <Image priority src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                         <p className = {styles.coming}>Coming Soon</p>
                                         <p className = {styles.cardInfo}>Aligarh</p>
                                         <p className = {styles.book}>Book Now</p> 
                                     </div> */}
 
                                     <div className = {styles.card}>
-                                        <Image src = '/landing_sec3_hotel2.png' layout = 'fill' />
+                                        <Image priority src = '/landing_sec3_hotel2.png' layout = 'fill' />
                                         <p className = {styles.coming}>Coming Soon</p>
                                         <p className = {styles.cardInfo}>Aligarh</p>
                                         <p className = {styles.book}>Book Now</p> 
@@ -248,7 +248,7 @@ export default function Section3(props){
                             {sec == 2 &&
                                 <div className = {`${styles.rightContainer} d-flex`}>
                                     <div className = {styles.card}>
-                                        <Image src = '/landing_sec3_hotel1.png' layout = 'fill' />
+                                        <Image priority src = '/landing_sec3_hotel1.png' layout = 'fill' />
                                         <p className = {styles.coming}>Coming Soon</p>
                                         <p className = {styles.cardInfo}>Aligarh</p>
                                         <p className = {styles.book}>Book Now</p> 
@@ -260,85 +260,85 @@ export default function Section3(props){
                                     <div style = {{flexWrap: 'wrap'}} className = {`d-flex align-items-center justify-content-center ${styles.single}`}>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im1.png' width = '220' height = '150' />
+                                                <Image priority src = '/im1.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Mr. John</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Founder of Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Boston</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im2.png' width = '220' height = '150' />
+                                                <Image priority src = '/im2.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Mr. Phillips</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Co Founder of Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>New York</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im3.png' width = '220' height = '150' />
+                                                <Image priority src = '/im3.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Miss Sizel</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Developer at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Boston</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im4.png' width = '220' height = '150' />
+                                                <Image priority src = '/im4.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Misses James</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>HR at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>New York</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im5.png' width = '220' height = '150' />
+                                                <Image priority src = '/im5.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Mr. Micheal</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Developer at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Chicago</p>
                                             </div>
                                         </div>
                                         <div className = {styles.single}>
                                             <div style = {{borderRadius: '8px'}}>
-                                                <Image src = '/im7.png' width = '220' height = '150' />
+                                                <Image priority src = '/im7.png' width = '220' height = '150' />
                                             </div>
                                             <p className = {styles.name}>Mr. David</p>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/business_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Consultant at Borgfy</p>
                                             </div>
                                             <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                <Image priority src = '/location_logo.png' width = '20' height = '20'/>
                                                 <p className = {styles.labe}>Austin</p>
                                             </div>
                                         </div>
@@ -354,21 +354,21 @@ export default function Section3(props){
                                         <div className = {`${styles.guestContainer} d-flex`}>
                                             <div style = {{width: 'fit-content'}}>
                                                 <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                    <Image src = '/guest1.png' layout = 'fill' />
+                                                    <Image priority src = '/guest1.png' layout = 'fill' />
                                                 </div>
                                                 <p className = {styles.guestLabel} style = {{background: 'linear-gradient(180deg, #D1AB49 0%, #D19C15 100%)'}}>Traveler</p>
                                             </div>
 
                                             <div style = {{width: 'fit-content'}}>
                                                 <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                    <Image src = '/guest2.png' layout = 'fill' />
+                                                    <Image priority src = '/guest2.png' layout = 'fill' />
                                                 </div>
                                                 <p className = {styles.guestLabel} style = {{background: '#03254C'}}>Entrepreneur</p>
                                             </div>
 
                                             <div style = {{width: 'fit-content'}}>
                                                 <div style = {{width: '56px',  height: '56px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto'}}>
-                                                    <Image src = '/guest3.png' layout = 'fill' />
+                                                    <Image priority src = '/guest3.png' layout = 'fill' />
                                                 </div>
                                                 <p className = {styles.guestLabel} style = {{background: '#376BF9'}}>Investor</p>
                                             </div>
@@ -376,7 +376,7 @@ export default function Section3(props){
                                             <div style = {{width: 'fit-content'}}>
                                                 <div className='d-flex align-items-center justify-content-center' style = {{width: '66px',  height: '66px', borderRadius: '50%', overflow: 'hidden', position: 'relative', margin: 'auto', background: 'black'}}>
                                                     <div style = {{opacity: '0.4'}}>
-                                                        <Image src = '/guest1.png' layout = 'fill' />
+                                                        <Image priority src = '/guest1.png' layout = 'fill' />
                                                     </div>
                                                     <p className = {styles.plus}>+4</p>
                                                 </div>

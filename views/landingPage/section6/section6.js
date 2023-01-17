@@ -34,7 +34,7 @@ export default function Section6(props){
                 <div style = {{marginTop: '50px'}} className = 'd-flex align-items-start justify-content-between'>
                     <Fade duration = {2000} right>
                         <div className = {`${styles.imgCont} show_in_mobile`}>
-                            <Image src = '/workinh.jpg' layout='fill'/>
+                            <Image priority src = '/workinh.jpg' layout='fill'/>
                         </div>
                     </Fade>
                     <div style = {{width: '100%'}}>
@@ -57,7 +57,7 @@ export default function Section6(props){
                                     </Fade>
                                     <Fade duration = {2000} right>
                                         <div className = {`${styles.imgCont} hide_in_mobile`}>
-                                            <Image src = '/workinh.jpg' layout='fill'/>
+                                            <Image priority src = '/workinh.jpg' layout='fill'/>
                                         </div>
                                     </Fade>
                             </div>

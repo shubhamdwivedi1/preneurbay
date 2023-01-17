@@ -63,7 +63,7 @@ export default function Connect(props){
         <div className = {styles.container}>
             <div className = {styles.box}>
                 <div onClick={()=>{props.setContact(false)}} style = {{position: 'absolute', top: '20px', right: '20px', cursor: 'pointer'}}>
-                    <Image src = '/contact_cross.png' width = '40' height = '40'/>
+                    <Image priority src = '/contact_cross.png' width = '40' height = '40'/>
                 </div>
 
                 {/* <p style = {{width: 'fit-content', margin: 'auto'}}><mark>GET IN TOUCH</mark></p> */}
