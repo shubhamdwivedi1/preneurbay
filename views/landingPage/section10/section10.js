@@ -9,14 +9,14 @@ export default function Section10(props){
         <PaddingLayout>
             <Fade duration = {2000} bottom>
                 <div className = {styles.container}>
-                    <Image priority src = '/landing_sec10_back.png' layout = 'fill' />
+                    <Image src = '/landing_sec10_back.png' layout = 'fill' />
 
                     <div style = {{position: 'relative'}} className = 'd-flex align-items-center justify-content-between'>
                         <div>
                             <div className = 'd-flex align-items-center justify-content-center'>
                                 <p style = {{marginRight: '10px'}} className = {styles.heading}>Join our</p>
                                 <div style = {{marginBottom: '9px'}}>
-                                    <Image priority src = '/facebook_icon.png' width = '30' height = '30' />
+                                    <Image src = '/facebook_icon.png' width = '30' height = '30' />
                                 </div>
                                 <p style = {{marginLeft: '10px'}} className = {styles.heading}>community</p>
                             </div>

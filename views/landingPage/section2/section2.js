@@ -9,14 +9,14 @@ export default function Section2(props){
         
         <div>
             <div style = {{position: 'relative'}}>
-                {/* <Image priority src = '/landing_sec2_back.png' layout = 'fill' /> */}
+                {/* <Image src = '/landing_sec2_back.png' layout = 'fill' /> */}
             
                 <PaddingLayout>
                     <div className = {`${styles.container} d-flex align-items-center justify-content-center`}>
                         <Fade duration = {2000}>
                             <div>
                                 <div className = {`${styles.buildingCon} `} style = {{position: 'relative'}}>
-                                    <Image priority src = '/building.svg' layout='fill' />
+                                    <Image src = '/building.svg' layout='fill' />
                                 </div>
                                 <p style = {{fontSize: '12', color: 'black', textAlign: 'center', fontStyle: 'italic'}}>Image is just for illustration</p>
                                 <div className = {styles.innerContainer}>
@@ -28,7 +28,7 @@ export default function Section2(props){
                 </PaddingLayout>
                 
                 <div className = {styles.line}>
-                    <Image priority src = '/landing_sec2_lines.png' width = '120' height = '8' />
+                    <Image src = '/landing_sec2_lines.png' width = '120' height = '8' />
                 </div>
             </div>
             
