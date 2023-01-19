@@ -12,7 +12,7 @@ export default function Section7(props){
     useEffect(()=>{
         setTimeout(()=>{
             setMarker(prev => (prev+1)%9)
-        }, 1500)
+        }, 2000)
     }, [marker])
 
 
