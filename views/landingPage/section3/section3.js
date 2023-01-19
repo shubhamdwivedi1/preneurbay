@@ -224,6 +224,7 @@ export default function Section3(props){
                                     </div>
                                 }
                             </div>
+                            <p style = {{color: "gray", marginTop: '15px', fontWeight: 'bold'}}>- Connect world in an executive way</p>
                         </div>
                     </Fade>
                     <Fade duration = {2000} right>
