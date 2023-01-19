@@ -50,9 +50,9 @@ let stickyScroll = (event)=>{
             document.getElementsByTagName("html")[0].style.overflowY = 'hidden'
             let x = window.scrollX
             let y = window.scrollY
-            if(anscroll < 450)
+            if(anscroll < 250)
                 window.scrollTo(x, y)
-            if(anscroll > 450){
+            if(anscroll > 250){
 
                 if(tab == 1){
                     document.getElementById("whypre").style.marginTop='410px'
@@ -77,9 +77,9 @@ let stickyScroll = (event)=>{
             document.getElementsByTagName("html")[0].style.overflowY = 'hidden'
             let x = window.scrollX
             let y = window.scrollY
-            if(anscroll > -450)
+            if(anscroll > -250)
                 window.scrollTo(x, y)
-            if(anscroll < -450){
+            if(anscroll < -250){
 
                 if(tab == 3){
                     document.getElementById("whypre").style.marginTop='410px'

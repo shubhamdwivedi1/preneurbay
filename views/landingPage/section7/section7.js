@@ -19,8 +19,17 @@ export default function Section7(props){
     return(
         <React.Fragment>
             <PaddingLayout>
+
+                <Fade duration = {2000} bottom>
+                    <p className = {styles.title} style = {{margin: 'auto', width: 'fit-content'}}><mark>Connecting people - For better world</mark></p>
+                </Fade>
+
+
                 <Fade duration = {2000} bottom>
                     <div className = {`${styles.container}`}>
+
+                        
+
                         <div style = {{zIndex: '10', position: 'absolute', top: '186px', left: '103px'}}>
                             {marker == 0 ?
                                 <div className = {styles.marker}>
@@ -111,7 +120,7 @@ export default function Section7(props){
 
             <div className = {`${styles.mobContainer}`}>
                 <div className = {styles.mapCon} style = {{position: 'relative'}}>
-                    <Image src = '/landing_sec7_maps.png' layout = 'fill'/>
+                    <Image src = '/mob_maps.png' layout = 'fill'/>
                 </div>
             </div>
         </React.Fragment>

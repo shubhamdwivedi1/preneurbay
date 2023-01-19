@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>PreneurBay</title>
         <meta name="description" content="PreneurBay" />
-        <link rel="icon" href="/ll.svg" />
+        <link rel="icon" href="/ll.png" />
       </Head>
 
       <div>
