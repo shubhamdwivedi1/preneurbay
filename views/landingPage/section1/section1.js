@@ -40,7 +40,7 @@ export default function Section1(props){
                             </div>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
                         </div>
-                        <p className = {styles.text}>We are creating a community where individuals can engage in business discourse, balance work and life, discover new opportunities, and connect with a global network in a professional manner. </p>
+                        <p className = {styles.text}>We are creating a community where preneur's meet hands to leverage businesses.</p>
                     </div>
                 </Fade>
                 <Fade duration = {2000} right>
