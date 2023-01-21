@@ -17,7 +17,7 @@ export default function Section1(props){
 
     useEffect(()=>{
         document.getElementById("solotags").scroll(0, 64*tag)
-        document.getElementById("solotagsmob").scroll(0, 64*tag)
+        // document.getElementById("solotagsmob").scroll(0, 64*tag)
     }, [tag])
     
 
@@ -29,7 +29,7 @@ export default function Section1(props){
                     <div className = {styles.pre1}>
                         <p className = {styles.title}>PreneurBay</p>
                         <p className = {styles.live}>Live- Work -Explore</p>
-                        <div style = {{flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.mob}`}>
+                        {/* <div style = {{flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.mob}`}>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>Are you a&nbsp;</p>
                             <div style = {{width : 'auto', marginLeft: '0', marginRight: '0', overflow: 'hidden', height: '64px', scrollBehavior: 'smooth'}} id = "solotagsmob">
                                 <p className = {styles.solo}><mark>Solopreneur</mark></p>
@@ -39,7 +39,7 @@ export default function Section1(props){
                                 <p className = {styles.solo}><mark>Digital Nomad</mark></p>
                             </div>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>&nbsp;?</p>
-                        </div>
+                        </div> */}
                         <p className = {styles.text}>We are creating a community where preneur's meet hands to leverage businesses.</p>
                     </div>
                 </Fade>

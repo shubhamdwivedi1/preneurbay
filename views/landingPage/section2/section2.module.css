@@ -48,6 +48,18 @@
     margin: auto;
 }
 
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 29px;
+
+    /* or 161% */
+
+    color: #393E45;
+}
+
 @media (max-width: 480px) {
 
     .buildingCon{
@@ -59,8 +71,5 @@
 
     .innerContainer{
         width: fit-content;
-    }
-    .text{
-        line-height: 20px;
     }
 }
