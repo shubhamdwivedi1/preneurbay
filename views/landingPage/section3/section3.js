@@ -18,7 +18,7 @@ export default function Section3(props){
             <div className = {styles.container}>
                 <Fade duration = {2000} bottom>
                     <p className = {styles.our} style = {{margin: 'auto', width: 'fit-content'}}><mark>Our Bay Terminal</mark></p>
-                    <p className = {styles.our} style = {{fontSize: '1rem', margin: 'auto', width: 'fit-content'}}><mark>Travel World In Executive Way</mark></p>
+                    {/* <p className = {styles.our} style = {{fontSize: '1rem', margin: 'auto', width: 'fit-content'}}><mark>Travel World In Executive Way</mark></p> */}
                     <div className = {`${styles.tabsContainer} d-flex align-items-center justify-content-between`}>
                         <div onClick={()=>{setTab(1)}} className = {`${styles.tabContainer} ${tab == 1 ? styles.tabContainerActive : null}`}>
                             <p className = {styles.tabText}>Aligarh - Hudson</p>
