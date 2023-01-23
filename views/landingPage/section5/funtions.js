@@ -50,17 +50,17 @@ let stickyScroll = (event)=>{
             document.getElementsByTagName("html")[0].style.overflowY = 'hidden'
             let x = window.scrollX
             let y = window.scrollY
-            if(anscroll < 250)
+            if(anscroll < 100)
                 window.scrollTo(x, y)
-            if(anscroll > 250){
+            if(anscroll > 100){
 
                 if(tab == 1){
                     document.getElementById("whypre").style.marginTop='410px'
-                    window.scrollTo(x, y+430)
+                    window.scrollTo(x, 2500)
                 }
                 else if(tab == 2){
                     document.getElementById("whypre").style.marginTop='590px'
-                    window.scrollTo(x, y+200)
+                    window.scrollTo(x, 2700)
                 }
                 tab++;
                 anscroll = 0
@@ -77,17 +77,17 @@ let stickyScroll = (event)=>{
             document.getElementsByTagName("html")[0].style.overflowY = 'hidden'
             let x = window.scrollX
             let y = window.scrollY
-            if(anscroll > -250)
+            if(anscroll > -100)
                 window.scrollTo(x, y)
-            if(anscroll < -250){
+            if(anscroll < -100){
 
                 if(tab == 3){
                     document.getElementById("whypre").style.marginTop='410px'
-                    window.scrollTo(x, y-200)
+                    window.scrollTo(x, 2500)
                 }
                 else if(tab == 2){
                     document.getElementById("whypre").style.marginTop='0px'
-                    window.scrollTo(x, y-430)
+                    window.scrollTo(x, 2300)
                 }
                 tab--;
                 anscroll = 0

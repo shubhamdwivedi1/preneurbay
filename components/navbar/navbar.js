@@ -2,11 +2,22 @@
 import styles from './navbar.module.css'
 import Image from 'next/image'
 import PaddingLayout from '../../layouts/paddingLayout/paddingLayout'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Navbar(props){
 
     const [menu, setMenu] = useState(false)
+
+
+    useEffect(() => {
+      if(menu){
+        document.getElementsByTagName("html")[0].style.overflowY = 'hidden'
+      }
+      else{
+        document.getElementsByTagName("html")[0].style.overflowY = 'scroll'
+      }
+    }, [menu])
+    
 
     return(
         <PaddingLayout>
@@ -16,7 +27,7 @@ export default function Navbar(props){
                         <Image src = '/menu_icon.png' width = '20' height = '20' />
                     </div>
                     <div className = {styles.logoConMM}>
-                        <Image src = "/logo.png" layout='fill' />
+                        <Image src = "/logo.svg" layout='fill' />
                     </div>
                 </div>
                 <div className={`d-flex ${styles.menu}`}>
@@ -29,15 +40,17 @@ export default function Navbar(props){
 
             </div>
 
-            <div style = {{left: menu ? '0' : '-150px'}} className = {styles.mobMenu}>
-                <div onClick={()=>{setMenu(false)}} style = {{position: 'absolute', top: '5px', left: '5px', cursor: 'pointer'}}>
-                    <Image src = '/cross.png' width = '24' height = '24' />
+            <div style = {{left: menu ? '0' : '-100vw'}} className = {styles.mobMenu}>
+                <div>
+                    <div onClick={()=>{setMenu(false)}} style = {{position: 'absolute', top: '5px', left: '5px', cursor: 'pointer'}}>
+                        <Image src = '/cross.png' width = '24' height = '24' />
+                    </div>
+                    <p onClick={()=>{setMenu(false)}}  style = {{cursor: 'pointer', marginLeft: '40px'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
+                    <p onClick={()=>{setMenu(false)}}  style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
+                    <p onClick={()=>{setMenu(false)}}  style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission & Vision</a></p>
+                    {/* <p onClick={()=>{setMenu(false)}}  style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p> */}
+                    <p onClick={()=>{setMenu(false);props.setContact(true); setMenu(false)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
                 </div>
-                <p style = {{cursor: 'pointer', marginLeft: '40px'}} className = {`${styles.label} ${styles.active}`}><a href = "#home">Home</a></p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#about">About</a></p>
-                <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#mission">Mission & Vision</a></p>
-                {/* <p style = {{cursor: 'pointer'}} className = {`${styles.label}`}><a href = "#vision">Vision</a></p> */}
-                <p onClick={()=>{setMenu(false);props.setContact(true)}} style = {{cursor: 'pointer'}} className = {`${styles.label}`}>Contact</p>
             </div>
 
         </PaddingLayout>

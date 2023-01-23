@@ -126,35 +126,38 @@ export default function Section3(props){
                                 {sec == 3 &&
                                     <div className = {styles.bndeCon}>
                                         <div style = {{flexWrap: 'wrap'}} className = {`d-flex align-items-center justify-content-center ${styles.single}`}>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im1.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Mr. John</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Founder of Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Boston</p>
-                                                </div>
-                                            </div>
-                                            <div className = {styles.single}>
-                                                <div style = {{borderRadius: '8px'}}>
-                                                    <Image src = '/im2.png' width = '220' height = '150' />
-                                                </div>
-                                                <p className = {styles.name}>Mr. Phillips</p>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/business_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>Co Founder of Borgfy</p>
-                                                </div>
-                                                <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
-                                                    <Image src = '/location_logo.png' width = '20' height = '20'/>
-                                                    <p className = {styles.labe}>New York</p>
-                                                </div>
-                                            </div>
                                             <Swiper style = {{width: '220px'}} direction = 'horizontal' spaceBetween={10}>
+                                                <SwiperSlide>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im1.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Mr. John</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Founder of Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Boston</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className = {styles.single}>
+                                                        <div style = {{borderRadius: '8px'}}>
+                                                            <Image src = '/im2.png' width = '220' height = '150' />
+                                                        </div>
+                                                        <p className = {styles.name}>Mr. Phillips</p>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/business_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>Co Founder of Borgfy</p>
+                                                        </div>
+                                                        <div style = {{width: 'fit-content', flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.labeCon}`}>
+                                                            <Image src = '/location_logo.png' width = '20' height = '20'/>
+                                                            <p className = {styles.labe}>New York</p>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                                
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
@@ -170,8 +173,6 @@ export default function Section3(props){
                                                             <p className = {styles.labe}>Boston</p>
                                                         </div>
                                                     </div>
-                                                </SwiperSlide>
-                                                <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
                                                             <Image src = '/im4.png' width = '220' height = '150' />
@@ -202,8 +203,6 @@ export default function Section3(props){
                                                             <p className = {styles.labe}>Chicago</p>
                                                         </div>
                                                     </div>
-                                                </SwiperSlide>
-                                                <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
                                                             <Image src = '/im7.png' width = '220' height = '150' />
@@ -225,7 +224,6 @@ export default function Section3(props){
                                     </div>
                                 }
                             </div>
-                            <p style = {{color: "gray", marginTop: '15px', fontWeight: 'bold'}}>- Connect world in an executive way</p>
                         </div>
                     </Fade>
                     <Fade duration = {2000} right>

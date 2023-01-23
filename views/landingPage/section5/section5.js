@@ -25,19 +25,19 @@ export default function Section5(props){
                     </div>
                     <Fade duration = {2000} right>
                         <div id = "myslides" style = {{width: '666px'}}>
-                            <div>
+                            <div id = "pre1">
                                 <p className = {styles.rightTitle}>“Business+ leisure = <span style = {{color: '#D1AB49'}}>Bleisure</span> Win business to enjoy leisure at your travel”</p>
                                 <p className = {styles.rightText}>"Combine business and leisure for a winning bleisure experience" <br/> Our objective is to assist early-stage business enthusiasts and professionals in seamlessly blending business and leisure, creating a unique "bleisure" experience through our destinations. Our goal is to provide a one-stop destination for individuals to Live, Work and Explore.</p>
                             </div>
                         
-                            <div>
+                            <div id = "pre2">
                                 <div style = {{position: 'relative'}}>
                                     <p className = {styles.subHeading}>Bizz or Liesure</p>
                                     <div className = {styles.yellowBorder}></div>
                                 </div>
                                 <p className = {styles.rightText}>At PreneurBay, we prioritize business growth and understand that leisure comes as a result of successful business deals. Our goal is to create a stress-free environment for our clients to truly enjoy the b-leisure experience.</p>
                             </div>
-                            <div>
+                            <div id = "pre3">
                                 <div style = {{position: 'relative'}}>
                                     <p className = {styles.subHeading}>Here are some facts</p>
                                     <div className = {styles.yellowBorder}></div>

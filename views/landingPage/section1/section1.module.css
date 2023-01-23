@@ -23,13 +23,28 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
-    line-height: 38px;
+    line-height: 30px;
 
     /* identical to box height, or 158% */
 
     /* Primary/Blue */
     color: #03254C;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+
+}
+
+.exec{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* line-height: 38px; */
+
+    /* identical to box height, or 158% */
+
+    /* Primary/Blue */
+    color: #03254C;
+    margin-bottom: 10px;
 
 }
 
@@ -49,12 +64,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 29px;
 
-    /* or 140% */
+    /* or 161% */
 
-    /* Secondory/Gray */
     color: #393E45;
 }
 
@@ -93,6 +107,11 @@
 
 @media (max-width: 480px) {
 
+    /* .solo{
+        margin-bottom: 10px;
+    } */
+
+
     .mob{
         display: flex !important;
     }
@@ -115,12 +134,12 @@
         height: 28px;
     }
 
-    .text{
+    /* .text{
         margin-top: -15px;
-    }
+    } */
 
     .rightText{
-        margin-top: 0px;
+        margin-top: -15px;
     }
     /* .pc{
         display: none !important;

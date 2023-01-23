@@ -29,6 +29,7 @@ export default function Section1(props){
                     <div className = {styles.pre1}>
                         <p className = {styles.title}>PreneurBay</p>
                         <p className = {styles.live}>Live- Work -Explore</p>
+                        <p className = {styles.exec}>Travel World In Executive Way</p>
                         {/* <div style = {{flexWrap: 'nowrap'}} className={`d-flex align-items-center justify-content-start ${styles.mob}`}>
                             <p style = {{width : 'auto', marginLeft: '0', marginRight: '0'}} className = {styles.solo}>Are you a&nbsp;</p>
                             <div style = {{width : 'auto', marginLeft: '0', marginRight: '0', overflow: 'hidden', height: '64px', scrollBehavior: 'smooth'}} id = "solotagsmob">

@@ -49,6 +49,7 @@
 }
 
 .text{
+    text-align: left;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -71,5 +72,9 @@
 
     .innerContainer{
         width: fit-content;
+    }
+
+    .line{
+        display: none;
     }
 }
