@@ -64,9 +64,9 @@
 @media (max-width: 480px) {
 
     .buildingCon{
-        width: 100vw;
-        height: 40vw;
-        margin-left: -20px;
+        width: 130vw;
+        height: 52vw;
+        margin-left: -80px;
         border-radius: 0;
     }
 
