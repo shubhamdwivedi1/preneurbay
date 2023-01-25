@@ -11,7 +11,7 @@ export default function Section5(props){
     let oldScroll = 0
 
     return(
-        <div onMouseEnter={()=>{addEvent();}} onMouseLeave={()=>{removeEvent();}} style = {{overflow: 'hidden'}} className = {styles.container}>
+        <div style = {{overflow: 'hidden'}} className = {styles.container}>
             <Image src = '/landing_sec5_back.png' layout = 'fill' />
             <div className = 'hide_in_mobile'  style = {{position: 'absolute', left: '0', bottom: '0'}}>
                 <Image src = '/landing_sec5_des.png' width = '606' height = '617' />
