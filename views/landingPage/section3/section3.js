@@ -4,7 +4,8 @@ import styles from './section3.module.css'
 import Image from 'next/image'
 import Fade from 'react-reveal/Fade'
 import { useState } from 'react'
-import { Swiper, SwiperSlide} from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay } from 'swiper'
 
 export default function Section3(props){
 
@@ -126,7 +127,7 @@ export default function Section3(props){
                                 {sec == 3 &&
                                     <div className = {styles.bndeCon}>
                                         <div style = {{flexWrap: 'wrap'}} className = {`d-flex align-items-center justify-content-center ${styles.single}`}>
-                                            <Swiper style = {{width: '220px'}} direction = 'horizontal' spaceBetween={10}>
+                                            <Swiper style = {{width: '220px'}} direction = 'horizontal' spaceBetween={10} autoplay={{delay: 1500, disableOnInteraction: false}} modules={[Autoplay]}>
                                                 <SwiperSlide>
                                                     <div className = {styles.single}>
                                                         <div style = {{borderRadius: '8px'}}>
