@@ -43,7 +43,7 @@ export default function Section5(props){
                                     <div className = {styles.yellowBorder}></div>
                                 </div>
                                 
-                                <p className = {styles.rightText}><span style = {{color: '#D1AB49'}}>90% of professionals</span> believe that business travel is valuable to the company and professional growth.<br/>Approximately 28% of current business would be lost if employees didn't travel.<br/>Companies gain $12.50 in revenue for every dollar invested in business travel.</p>
+                                <p className = {styles.rightText}><span style = {{color: '#D1AB49'}}>90% of professionals</span> believe that business travel is valuable to the company and professional growth.<br/>Approximately 28% of current business would be lost if employees didn't travel.<br/>Companies gain $12.50 in revenue for every dollar invested in business travel.<br/>On average US executives state that the return of the business travel is between $10 and $14.99 for every dollar invested.</p>
                             </div>
                         </div>
                     </Fade>
