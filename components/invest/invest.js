@@ -39,7 +39,7 @@ export default function Invest(props){
           },
           {
             headers: {
-                "api-key": `${process.env.NEXT_PUBLIC_APIKEY}`,
+                "api-key": `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`,
                 "Content-Type": "application/json",
                 "accept": "application/json"
             }
